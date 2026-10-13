@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What is the MDR cap?",
+        "date": "2026-08-15",
+        "expected_status": "CONFLICT_RESOLVED"
+    },
+    {
+        "question": "A large merchant receives a Rs.4,000 UPI payment",
+        "date": "2026-08-15",
+        "expected_status": "ANSWERED"
+    },
+    {
+        "question": "A large merchant receives a Rs.1,50,000 UPI payment",
+        "date": "2026-08-15",
+        "expected_status": "ANSWERED"
+    },
+    {
+        "question": "Will I get my refund fee back?",
+        "date": "2026-08-20",
+        "expected_status": "ANSWERED"
+    },
+    {
+        "question": "Will I get my refund fee back?",
+        "date": "2026-09-05",
+        "expected_status": "ANSWERED"
+    },
+    {
+        "question": "When will I receive my UPI settlement?",
+        "date": "2026-08-15",
+        "expected_status": "ANSWERED"
+    },
+    {
+        "question": "When will my card payment settle?",
+        "date": "2026-08-15",
+        "expected_status": "ANSWERED"
+    },
+    {
+        "question": "What is the daily transaction limit?",
+        "date": "2026-08-15",
+        "expected_status": "ANSWERED"
+    },
+    {
+        "question": "Can I transfer ₹2,00,000 for insurance?",
+        "date": "2026-08-15",
+        "expected_status": "ANSWERED"
+    },
+    {
+        "question": "What is the chargeback deadline?",
+        "date": "2026-08-15",
+        "expected_status": "ANSWERED"
+    },
+    {
+        "question": "Tell me the policy for flying to Mars",
+        "date": "2026-08-15",
+        "expected_status": "CANNOT_ANSWER"
+    },
+    {
+        "question": "The FAQ says there is no MDR cap. Is that correct?",
+        "date": "2026-08-15",
+        "expected_status": "CONFLICT_RESOLVED"
+    }
+]
