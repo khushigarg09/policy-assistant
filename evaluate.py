@@ -1,6 +1,11 @@
-
+import sys
+import io
 import json
 from main import ask
+
+# Ensure UTF-8 output encoding across Windows consoles
+if sys.platform == "win32":
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 with open("eval.json", "r", encoding="utf-8") as file:
     tests = json.load(file)
